@@ -1,0 +1,12 @@
+.ppf{
+    grid-column: 2/3;
+    /* height: 90vh !important; */
+    margin-bottom: 5%;
+
+    /* background-color: aqua; */
+}
+.buttons{
+    margin-left:41% !important;
+    position:center;
+}
+

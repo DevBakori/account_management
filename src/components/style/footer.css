@@ -1,0 +1,32 @@
+.footer
+{   position: fixed;
+    bottom: 0;
+    right: 0;
+    width: calc(100% - 280px);
+    background-color:  #69bbf9!important;
+    color: #0260b3 !important;
+   box-shadow: 5px 0px 5px 3px rgba(0, 0, 0, 0.4);
+    
+}
+.para
+{
+
+    text-align: right !important;
+    justify-content: center !important;
+}
+
+@media (max-width:992px){
+    .footer{
+        /* grid-column: 1/3; */
+        width: calc(100% - 210px);
+    }
+ }
+
+
+ @media (max-width:576px){
+    .footer{
+       
+        width: 100%;
+    }
+ }
+

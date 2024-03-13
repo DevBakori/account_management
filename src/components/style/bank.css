@@ -1,0 +1,9 @@
+.bank{
+    grid-column: 2/3;
+    /* background-color: aqua; */
+}
+@media (max-width:576px){
+    .bank{
+        grid-column: 1/3;
+    }
+ }

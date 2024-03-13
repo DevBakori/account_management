@@ -1,0 +1,150 @@
+.recurring {
+    grid-column: 2/3;
+    padding: 20px 20px 250px !important;
+    /* grid-row: 1/2; */
+}
+
+.select {
+    width: 35%;
+}
+
+.form-select
+{
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+/* .select-search{
+    margin-top: -3%;
+    text-align: right;
+} */
+.rd-section {
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sm-box ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* row-gap: 20px; */
+}
+
+.sm-box ul li {
+    flex: 0 0 calc(33.33% - 20px);
+    align-self: center;
+}
+
+.sm-box .text-1 {
+    font-size: 18px;
+    color: #aaaaaa;
+    font-weight: 600;
+}
+
+.sm-box .text-2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.sm-box .status-text {
+    font-weight: 600;
+    color: #f40d30;
+}
+
+.updt-btn {
+    background-color: #fbcc64;
+    border-radius: 3px;
+}
+
+.sm-box-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sm-box-text {
+    color: #0260b3;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.recurring-section {
+
+    grid-template-columns: auto auto auto;
+    display: grid;
+    gap: 20px;
+    margin-bottom: -17%;
+}
+
+.recurring-card {
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.recurring-card p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0260b3;
+}
+
+@media (max-width:1199px) {
+    .sm-box ul li {
+        flex: 0 0 calc(50% - 20px);
+
+    }
+
+    .sm-box ul li:nth-child(1),
+    .sm-box ul li:nth-child(2),
+    .sm-box ul li:nth-child(3) {
+        align-self: normal;
+    }
+
+    .recurring-section {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:992px) {
+
+    .select-search {
+        font-size: calc(1.1rem + .3vw);
+    }
+
+
+}
+
+@media(max-width:767px) {
+    .recurring-section {
+        grid-template-columns: auto;
+    }
+
+    .sm-box ul li {
+        flex: 0 0 calc(100% - 20px);
+
+    }
+
+    .recurring-dropdown-section {
+        flex-direction: column !important;
+    }
+
+    .select {
+        width: 100% !important;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media (max-width:576px) {
+    .recurring {
+        grid-column: 1/3;
+    }
+
+}

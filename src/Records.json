@@ -1,0 +1,52 @@
+[
+{
+    "SBI":{
+        "AccountNumber":"1330001",
+        "LinkBankAccount":"1330001",
+        "Status":"Closed",
+        "BankCode":"S810045",
+        "BankName":"SBI",
+
+        "AvalableBalance":"Rs. 1200",
+        "PrincipleAmmount":"Rs. 34000",
+        "IntrestedEarned":"Rs. 16784",
+        "MonthlyDeposite":"Rs. 37876",
+        "IntrestRate":"9.9% ",
+        "Tenure":"24 months",
+        "MaturityAmmount":"Rs. 34576",
+        "TaxPaid":"Rs.456"
+    },
+    "KOTAK":{
+        "AccountNumber":"1330002",
+        "LinkBankAccount":"1330002",
+        "Status":"Closed",
+        "BankCode":"k810035",
+        "BankName":"KOTAK",
+
+        "AvalableBalance":"Rs. 65686",
+        "PrincipleAmmount":"Rs. 3477",
+        "IntrestedEarned":"Rs. 76784",
+        "MonthlyDeposite":"Rs. 456876",
+        "IntrestRate":"5.9% ",
+        "Tenure":"4 months",
+        "MaturityAmmount":"Rs. 34576",
+        "TaxPaid":"Rs.45656"
+    },
+    "BOB":{
+        "AccountNumber":"1330003",
+        "LinkBankAccount":"1330003",
+        "Status":"Closed",
+        "BankCode":"B810067",
+        "BankName":"BOB",
+
+        "AvalableBalance":"Rs. 677676",
+        "PrincipleAmmount":"Rs. 63477",
+        "IntrestedEarned":"Rs. 46784",
+        "MonthlyDeposite":"Rs.34876",
+        "IntrestRate":"5.9% ",
+        "Tenure":"4 months",
+        "MaturityAmmount":"Rs. 34576",
+        "TaxPaid":"Rs.45656"
+    }
+}
+]
