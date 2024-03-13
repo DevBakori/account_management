@@ -1,7 +1,7 @@
 {
   "name": "bank_dashboard",
   "version": "0.1.0",
-  "homepage": "https://DevBakori.github.io/react-gh-pages",
+  "homepage": "https://DevBakori.github.io/account_management/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
